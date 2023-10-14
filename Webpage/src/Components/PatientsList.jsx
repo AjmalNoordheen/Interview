@@ -7,11 +7,11 @@ import ArrowForwardIosOutlinedIcon from "@mui/icons-material/ArrowForwardIosOutl
 import PlaylistAddOutlinedIcon from "@mui/icons-material/PlaylistAddOutlined";
 import { IconButton } from "@mui/material";
 import FormatListBulletedOutlinedIcon from "@mui/icons-material/FormatListBulletedOutlined";
-import WidgetsIcon from '@mui/icons-material/Widgets';
-import WheelchairPickupIcon from '@mui/icons-material/WheelchairPickup';
-import GroupsIcon from '@mui/icons-material/Groups';
-import AppRegistrationIcon from '@mui/icons-material/AppRegistration';
-import AddCardIcon from '@mui/icons-material/AddCard';
+import WidgetsIcon from "@mui/icons-material/Widgets";
+import WheelchairPickupIcon from "@mui/icons-material/WheelchairPickup";
+import GroupsIcon from "@mui/icons-material/Groups";
+import AppRegistrationIcon from "@mui/icons-material/AppRegistration";
+import AddCardIcon from "@mui/icons-material/AddCard";
 import AddCard from "@mui/icons-material/AddCard";
 
 function PatientsList() {
@@ -28,7 +28,6 @@ function PatientsList() {
 
   return (
     <div className="flex">
-
       {/* Side Bar Start */}
       <div className="w-2/12 bg-blue-950 h-screen">
         <div className="h-[20%] w-full bg-blue-950 flex justify-center items-center">
@@ -36,31 +35,30 @@ function PatientsList() {
         </div>
 
         <div className="flex flex-col  h-[60%] justify-center ml-5 gap-5">
-        <div className="text-white font-medium hover:bg-blue-400 hover:p-2 hover:rounded hover:w-9/12 gap-x-4 flex">
-          <WidgetsIcon fontSize="medium" className=""/>
+          <div className="text-white font-medium hover:bg-blue-400 hover:p-2 hover:rounded hover:w-9/12 gap-x-4 flex">
+            <WidgetsIcon fontSize="medium" className="" />
             <p>DashBoard</p>
           </div>
 
           <div className="text-white font-medium hover:bg-blue-400 hover:p-2 hover:rounded hover:w-9/12 gap-x-4 flex">
-            <WheelchairPickupIcon fontSize="medium"/>
+            <WheelchairPickupIcon fontSize="medium" />
             <p>Patients</p>
           </div>
 
           <div className="text-white font-medium hover:bg-blue-400 hover:p-2 hover:rounded hover:w-9/12 gap-x-4 flex">
-            <GroupsIcon/>
+            <GroupsIcon />
             <p>Physicians</p>
           </div>
 
           <div className="text-white font-medium hover:bg-blue-400 hover:p-2 hover:rounded hover:w-9/12 gap-x-4 flex">
-          <AppRegistrationIcon/>
-          <p>Appointments</p>
+            <AppRegistrationIcon />
+            <p>Appointments</p>
           </div>
 
           <div className="text-white font-medium hover:bg-blue-400 hover:p-2 hover:rounded hover:w-11/12 gap-x-4 flex">
-          <AddCard/>
-          <p>Generate Card</p>
+            <AddCard />
+            <p>Generate Card</p>
           </div>
-          
         </div>
       </div>
       {/* Side Bar Start End*/}
